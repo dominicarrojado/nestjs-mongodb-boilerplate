@@ -1,0 +1,12 @@
+services:
+  dbadmin:
+    image: mongo-express
+    restart: always
+    ports:
+      - 8081:8081
+    depends_on:
+      - db
+    environment:
+      ME_CONFIG_MONGODB_URL: mongodb://root:password@db:27017
+      ME_CONFIG_BASICAUTH_USERNAME: admin
+      ME_CONFIG_BASICAUTH_PASSWORD: mexpress
