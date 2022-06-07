@@ -1,4 +1,4 @@
-# Nest (NestJS) Framework Boilerplate
+# NestJS Framework Boilerplate (MongoDB)
 
 [![CI/CD](https://github.com/dominicarrojado/nestjs-mongodb-boilerplate/actions/workflows/ci.yml/badge.svg)](https://github.com/dominicarrojado/nestjs-mongodb-boilerplate/actions/workflows/ci.yml)
 
